@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #34314b;
+    color: #fafafa;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+header, footer {
+    background-color: #9a5aee;
+    color: #fff;
+    padding: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+#apresentacao{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#titulo_git{
+    text-align: center;
+}
+#menu_principal{
+    text-align: center;
+    display: inline-flex;
+    margin-left: 36%;
+    list-style-type: none;
+}
+#menu_principal li {
+    display: inline;
+    margin-right: 10px;
+}
+#img1p{
+    width: 500px;
+    height: 300px;
+}
+#texto_p{
+    
+    padding-right: 7%;
+    text-align: justify;
+    line-height: 1.45;
+}
+#esconde_url{
+    color: rgb(90, 74, 107);
+}
+#titulo_sobre{
+    text-align: center;
+}
+#pgcontato{
+    line-height: 1.5;
+}
+#contatoinput{
+    text-align: center;
+}
