@@ -10,6 +10,9 @@ header, footer {
     background-color: #9a5aee;
     color: #fff;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -34,7 +37,6 @@ footer {
 #menu_principal{
     text-align: center;
     display: inline-flex;
-    margin-left: 36%;
     list-style-type: none;
 }
 #menu_principal li {
