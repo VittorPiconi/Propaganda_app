@@ -4,13 +4,13 @@
     padding: 0;
 } 
 
-body {
+body{
     font-family: Arial, sans-serif;
     background-color: #34314b;
     color: #fafafa;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
 }
 
 header, footer {
@@ -25,10 +25,10 @@ header, footer {
 
 a {
     color: #fff;
-    text-decoration: none;
+    text-decoration:none;
 }
 
-main {
+#main_site {
     padding: 20px;
     width: 70%;
     display: flex;
@@ -55,12 +55,17 @@ footer {
     display: inline;
     margin-right: 10px;
 }
+
+#menu_principal li a:hover{
+    color: #34314b;
+    transition: 0.5s ease-in-out;
+}
+
 #img1p{
     width: 500px;
     height: 300px;
 }
 #texto_p{
-    
     padding-right: 7%;
     text-align: justify;
     line-height: 1.45;
@@ -71,9 +76,7 @@ footer {
 #titulo_sobre{
     text-align: center;
 } 
-#pgcontato{
-    line-height: 1.5;
-}
+
 #contatoinput{
     text-align: center;
 }
@@ -119,13 +122,11 @@ footer {
 
 
 #app_table, td {
- border: #fafafa solid 1px;
  width: 90%;
  border-spacing: 30px;
 }
 
 #app_table td {
-    border: aliceblue 1px solid;
     width: 523px;
 }
 
@@ -135,7 +136,6 @@ footer {
 }
 
 .img_mobile {
-    object-fit: fill;
     width: 360px;
     height: 800px;
     position: relative;
@@ -162,3 +162,35 @@ footer {
 .td_mobile {
     border-spacing:60px;
 }
+
+
+/* pagina de contatos */
+
+#pgcontato{
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    background-color: #34314b;
+    color: #fafafa;
+    padding: 20px;
+    width: 70%;
+}
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+    margin: 10px 0 10px 0;
+}
+
+.enviar {
+    height: 45px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #9a5aee;
+    transition: 1s ease;
+}
+
+.enviar:hover{
+    color: #fafafa;
+    background-color: #34314b;
+}
+
