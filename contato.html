@@ -10,40 +10,45 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="site_desktop.html">Site Desktop</a></li>
+                <li><a href="app_desktop.html">App Desktop</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
     </header>
     <main id="pgcontato">
-        Tem interesse em nosso trabalho de divulgação?
+        <h3>Tem interesse em nosso trabalho de divulgação?</h3>
         <br>
-        Digite algumas informações:
+        <p>Digite algumas informações:</p>
         <br>
+        <label for="nome">Nome Completo:</label>
         <input  type="name"
             	size="25"
                 placeholder="Digite seu nome completo">
         <br>
+        <label for="telefone">Telefone:</label>
         <input  type="tell"
                 size="25"
                 placeholder="Digite seu telefone">
         <br>
+        <label for="email">E-mail:</label>
         <input  type="email"
                 name="email"
                 size="25"
                 placeholder="Digite seu e-mail"
                 required>
         <br>
-        Qual seu nivel de satisfação com o site? <br>
-        1<input  type="range"
-                name="atrações"
+        <label for="range"> Qual sua sastifação com o site ?</label>
+        <br>
+        1<input type="range"
+                name="nivel"
                 min="1"
                 max="5">5
         <br>
         <input  type="checkbox"
                 name="recEmails"
                 value="s"
-                checked> Quero receber e-mails 
+                checked> Quero receber e-mails sobre as novidades !
         <br>
-        <input type="submit" value="ENVIAR">
+        <input class="enviar" type="submit" value="ENVIAR">
         <hr>
         <p>Somos uma empresa de marketing chamado Os Galetos.</p>
         <p>Endereço: Rua Augusta, 69 - Cidade São Paulo - SP</p>
