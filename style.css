@@ -30,7 +30,7 @@ a {
     text-decoration:none;
 }
 
-#main_site {
+.main_site {
     padding: 20px;
     width: 70%;
     display: flex;
@@ -41,70 +41,70 @@ a {
 footer {
     margin-top: 20px;
 }
-#apresentacao{
+.apresentacao{
     padding-left: 10%;
     padding-right: 10%;
 }
-#titulo_git{
+.titulo_git{
     text-align: center;
 }
-#menu_principal{
+.menu_principal{
     text-align: center;
     display: inline-flex;
     list-style-type: none;
 }
-#menu_principal li {
+.menu_principal li {
     display: inline;
     margin-right: 10px;
 }
 
-#menu_principal li a:hover{
+.menu_principal li a:hover{
     color: #34314b;
     transition: 0.5s ease-in-out;
 }
 
-#img1p{
+.img1p{
     width: 500px;
     height: 300px;
 }
-#texto_p{
+.texto_p{
     padding-right: 7%;
     text-align: justify;
     line-height: 1.45;
 }
-#esconde_url{
+.esconde_url{
     color: rgb(90, 74, 107);
 }
-#titulo_sobre{
+.titulo_sobre{
     text-align: center;
 } 
 
-#contatoinput{
+.contatoinput{
     text-align: center;
 }
-#copyfooter{
+.copyfooter{
     text-align: center;
     color: #34314b;
     font-size: 12px;
 }
-#h1site{
+.h1site{
     text-align: center;
     text-transform: uppercase;
 }
-#mainsite{
+.mainsite{
     text-align: justify;
 }
-#h2site{
+.h2site{
     text-align: center;
 }
-#imgpgsite{
+.imgpgsite{
     width: 470px;
     height: 350px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 7%;
 }
-#texto_table_site{
+.texto_table_site{
     padding-right: 7%;
     padding-left: 7%;
     text-align: center;
@@ -113,14 +113,14 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#tr_site{
+.tr_site{
     margin-top: 15px;
     margin-bottom: 100px;
 }
-#main_site{
+.main_site{
     text-align: justify;
 }
-#site_table{
+.site_table{
     text-align: center;
     width: 15%;
 }
@@ -128,18 +128,18 @@ footer {
 /* MEUUEUEUEUEUEUEU */
 
 
-#app_table, td {
+.app_table, td {
  width: 90%;
  border-spacing: 30px;
  text-align: justify;
 }
 
-#app_table td {
+.app_table td {
     width: 523px;
 }
 
 
-#app_table th {
+.app_table th {
     text-align: center;
 }
 
@@ -151,7 +151,7 @@ footer {
 }
 
 
-#texto_table_app{
+.texto_table_app{
     padding-right: 7%;
     padding-left: 7%;
     text-align: justify;
@@ -161,7 +161,7 @@ footer {
     width: 400px;
 }
 
-#imgapp{
+.imgapp{
     width: 470px;
     height: 350px;
     padding-left: 7%;
@@ -174,7 +174,7 @@ footer {
 
 /* pagina de contatos */
 
-#pgcontato{
+.pgcontato{
     line-height: 1.5;
     font-family: Arial, sans-serif;
     background-color: #34314b;
